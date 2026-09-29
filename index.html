@@ -6,7 +6,7 @@
 
     <meta
         name="description"
-        content="Catherine Mack — Marketing student interested in beauty, fashion, lifestyle marketing, consumer insights, and brand storytelling."
+        content="Catherine Mack — Marketing student at Fairfield University with experience in social media, content creation, analytics, brand storytelling, and creative strategy."
     >
 
     <title>Catherine Mack | Marketing & Business Analytics</title>
@@ -16,528 +16,914 @@
 
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <!-- NAVIGATION -->
     <header class="site-header">
-        <a href="#top" class="logo" aria-label="Catherine Mack home">
-            CM<span>.</span>
-        </a>
+        <nav class="navbar" aria-label="Main navigation">
 
-        <nav class="desktop-nav" aria-label="Main navigation">
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#leadership">Leadership</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" class="nav-logo" aria-label="Catherine Mack home">
+                CM<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#leadership">Leadership</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+
         </nav>
-
-        <button
-            class="menu-toggle"
-            type="button"
-            aria-label="Open navigation menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-        >
-            <span></span>
-            <span></span>
-        </button>
     </header>
 
-    <!-- Mobile Navigation -->
-    <nav id="mobile-menu" class="mobile-nav" aria-label="Mobile navigation">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#leadership">Leadership</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
+    <main>
 
-    <main id="top">
+        <!-- HERO -->
+        <section class="hero section" id="home">
 
-        <!-- =========================
-             HERO
-        ========================== -->
-        <section class="hero">
             <div class="hero-content">
 
-                <div class="hero-photo-wrap reveal">
-                    <img
-                        src="profile.jpg"
-                        alt="Professional portrait of Catherine Mack"
-                        class="profile-photo"
-                    >
-                </div>
+                <div class="hero-text">
 
-                <div class="hero-copy">
-                    <p class="eyebrow reveal">Marketing • Business Analytics • Creative Strategy</p>
+                    <p class="eyebrow">
+                        Marketing • Business Analytics • Creative Strategy
+                    </p>
 
-                    <h1 class="hero-title reveal">
-                        Catherine
+                    <h1>
+                        Catherine<br>
                         <span>Mack</span>
                     </h1>
 
-                    <p class="hero-description reveal">
-                        A motivated and detail-oriented marketing student with a passion
-                        for beauty, fashion, emerging trends, consumer insights,
-                        creative strategy, and lifestyle marketing.
+                    <p class="hero-description">
+                        Marketing student with experience in social media,
+                        content creation, analytics, brand storytelling,
+                        influencer marketing, and lifestyle branding.
                     </p>
 
-                    <div class="hero-actions reveal">
-                        <a href="#experience" class="button button-dark">
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#experience"
+                            class="button button-primary"
+                        >
                             Explore My Experience
-                            <span aria-hidden="true">↘</span>
+                            <span aria-hidden="true">↗</span>
                         </a>
 
                         <a
-                            href="mailto:Catherine.mack@student.fairfield.edu"
-                            class="button button-outline"
+                            href="mailto:catherine.mack@student.fairfield.edu"
+                            class="button button-secondary"
                         >
                             Get In Touch
                         </a>
+
                     </div>
+
                 </div>
+
+
+                <div class="hero-image-wrapper">
+
+                    <div class="image-frame">
+
+                        <img
+                            src="./profile.jpg"
+                            alt="Catherine Mack"
+                            class="profile-image"
+                        >
+
+                    </div>
+
+                    <div class="image-label">
+                        <span>Based in</span>
+                        <strong>New York, NY</strong>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="hero-bottom">
-                <span>New York, NY</span>
-                <span>Fairfield University</span>
-                <span>BS Marketing · Business Analytics</span>
+
+            <!-- FOCUS SWITCHER -->
+            <div class="focus-area">
+
+                <p class="focus-label">
+                    Areas of interest
+                </p>
+
+                <div class="focus-buttons">
+
+                    <button
+                        class="focus-button active"
+                        data-focus="branding"
+                    >
+                        Lifestyle Branding
+                    </button>
+
+                    <button
+                        class="focus-button"
+                        data-focus="influencer"
+                    >
+                        Influencer Marketing
+                    </button>
+
+                    <button
+                        class="focus-button"
+                        data-focus="storytelling"
+                    >
+                        Brand Storytelling
+                    </button>
+
+                </div>
+
+                <p
+                    class="focus-description"
+                    id="focusDescription"
+                >
+                    Interested in building lifestyle brands and creating
+                    meaningful connections between brands and consumers.
+                </p>
+
             </div>
+
         </section>
 
 
-        <!-- =========================
-             ABOUT
-        ========================== -->
-        <section id="about" class="section about-section">
-            <div class="section-label reveal">
-                <span>01</span>
-                <span>About Me</span>
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+
+                <span class="section-number">01</span>
+
+                <h2>
+                    A little<br>
+                    <span>about me</span>
+                </h2>
+
             </div>
 
-            <div class="section-content about-grid">
-                <div>
-                    <h2 class="section-title reveal">
-                        Creative thinking,
-                        <em>strategic</em> perspective.
-                    </h2>
+
+            <div class="about-grid">
+
+                <div class="about-intro">
+
+                    <p class="large-text">
+                        I combine creative thinking with analytical
+                        problem-solving to develop engaging marketing
+                        experiences.
+                    </p>
+
                 </div>
 
-                <div class="about-text reveal">
+
+                <div class="about-copy">
+
                     <p>
-                        I am a rising junior at Fairfield University’s Charles F.
-                        Dolan School of Business pursuing a Bachelor of Science in
-                        Marketing with a minor in Business Analytics.
+                        I am a Marketing student at Fairfield University's
+                        Charles F. Dolan School of Business pursuing a
+                        Bachelor of Science in Marketing with a minor in
+                        Business Analytics.
                     </p>
 
                     <p>
-                        My experience has allowed me to explore social media strategy,
-                        content creation, analytics, consumer engagement, and
-                        communication. I enjoy combining creative ideas with data
-                        to understand audiences and build stronger brand connections.
+                        My experience includes social media strategy,
+                        content creation, digital marketing, analytics,
+                        graphic design, CRM support, and student engagement.
                     </p>
 
                     <p>
-                        I am especially interested in fashion marketing, beauty,
-                        lifestyle, skincare, brand storytelling, emerging consumer
-                        trends, and influencer marketing.
+                        I am particularly interested in brand storytelling,
+                        influencer marketing, and lifestyle branding.
                     </p>
+
+                    <a
+                        href="mailto:catherine.mack@student.fairfield.edu"
+                        class="text-link"
+                    >
+                        Let's connect <span aria-hidden="true">↗</span>
+                    </a>
+
                 </div>
+
             </div>
+
         </section>
 
 
-        <!-- =========================
-             EDUCATION
-        ========================== -->
-        <section id="education" class="section education-section">
-            <div class="section-label reveal">
-                <span>02</span>
-                <span>Education</span>
+        <!-- EDUCATION -->
+        <section class="section education-section" id="education">
+
+            <div class="section-heading">
+
+                <span class="section-number">02</span>
+
+                <h2>
+                    Education
+                </h2>
+
             </div>
 
-            <div class="section-content">
-                <article class="education-card reveal">
-                    <div class="education-top">
-                        <p class="card-kicker">2024 — 2028</p>
-                        <p class="card-location">Fairfield, CT</p>
+
+            <article class="education-card">
+
+                <div class="education-top">
+
+                    <div>
+
+                        <p class="card-label">
+                            Expected May 2028
+                        </p>
+
+                        <h3>
+                            Fairfield University
+                        </h3>
+
+                        <p class="card-subtitle">
+                            Charles F. Dolan School of Business
+                        </p>
+
                     </div>
 
-                    <h2>Fairfield University</h2>
 
-                    <h3>
-                        Charles F. Dolan School of Business
-                    </h3>
+                    <div class="education-gpa">
 
-                    <p class="degree">
-                        Bachelor of Science in Marketing
-                        <br>
-                        Minor in Business Analytics
-                    </p>
+                        <span>GPA</span>
 
-                    <div class="education-details">
-                        <div>
-                            <span class="detail-label">GPA</span>
-                            <strong>3.56</strong>
-                        </div>
+                        <strong>3.56</strong>
 
-                        <div>
-                            <span class="detail-label">Expected</span>
-                            <strong>May 2028</strong>
-                        </div>
                     </div>
 
-                    <div class="coursework">
+                </div>
+
+
+                <div class="education-details">
+
+                    <div>
+
+                        <span class="detail-label">
+                            Degree
+                        </span>
+
+                        <p>
+                            Bachelor of Science in Marketing
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Minor
+                        </span>
+
+                        <p>
+                            Business Analytics
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Academic Recognition
+                        </span>
+
+                        <p>
+                            Dean's List — Spring 2025, Fall 2025 & Spring 2026
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="coursework">
+
+                    <span class="detail-label">
+                        Relevant Coursework
+                    </span>
+
+                    <div class="tag-list">
+
                         <span>Messaging & Persuasion</span>
-                        <span>Management</span>
-                        <span>Introduction to Marketing</span>
-                        <span>Business Analytics</span>
                         <span>Digital Marketing</span>
                         <span>Media Strategy</span>
                         <span>Business Analytics Methods</span>
-                    </div>
-                </article>
-            </div>
-        </section>
 
-
-        <!-- =========================
-             EXPERIENCE
-        ========================== -->
-        <section id="experience" class="section experience-section">
-            <div class="section-label reveal">
-                <span>03</span>
-                <span>Experience</span>
-            </div>
-
-            <div class="section-content">
-
-                <div class="section-intro reveal">
-                    <h2 class="section-title">
-                        Building experience
-                        <em>through action.</em>
-                    </h2>
-
-                    <p>
-                        From social media strategy to communication and
-                        relationship-building, my experiences have helped me
-                        develop both creative and analytical skills.
-                    </p>
-                </div>
-
-
-                <!-- Wave Creations -->
-                <article class="experience-card featured reveal">
-                    <div class="experience-number">01</div>
-
-                    <div class="experience-main">
-                        <div class="experience-heading">
-                            <div>
-                                <p class="card-kicker">June 2025 — February 2026</p>
-                                <h3>Wave Creations LLC</h3>
-                                <p class="role">Social Media Intern</p>
-                            </div>
-
-                            <span class="location">Long Island, NY</span>
-                        </div>
-
-                        <div class="experience-body">
-                            <p>
-                                Developed and posted branded content across Instagram,
-                                Pinterest, and TikTok four times a week to strengthen
-                                brand identity and consumer engagement while aligning
-                                content with current market trends.
-                            </p>
-
-                            <p>
-                                Created Canva graphics for upcoming events and new
-                                products and monitored post analytics to measure reach,
-                                engagement, and consumer response.
-                            </p>
-
-                            <p>
-                                Used analytics to refine content and support brand
-                                awareness across consumers.
-                            </p>
-                        </div>
-
-                        <div class="metrics">
-                            <div class="metric">
-                                <strong>437K</strong>
-                                <span>Pinterest Impressions</span>
-                            </div>
-
-                            <div class="metric">
-                                <strong>10K</strong>
-                                <span>Pinterest Engagement</span>
-                            </div>
-
-                            <div class="metric">
-                                <strong>9K</strong>
-                                <span>TikTok Views</span>
-                            </div>
-
-                            <div class="metric">
-                                <strong>86.9%</strong>
-                                <span>TikTok FYP</span>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-
-                <!-- Lifeguard / Swim Instructor -->
-                <article class="experience-card reveal">
-                    <div class="experience-number">02</div>
-
-                    <div class="experience-main">
-                        <div class="experience-heading">
-                            <div>
-                                <p class="card-kicker">June 2022 — Present</p>
-                                <h3>
-                                    Cold Spring Country Club &
-                                    Crestwood Country Day School and Camp
-                                </h3>
-                                <p class="role">Lifeguard / Swim Instructor</p>
-                            </div>
-
-                            <span class="location">Long Island, NY</span>
-                        </div>
-
-                        <div class="experience-body">
-                            <p>
-                                Developed creative and engaging swim lesson plans
-                                tailored to children's learning styles, strengthening
-                                adaptability and communication skills.
-                            </p>
-
-                            <p>
-                                Ensured pool safety for 100 children per pool while
-                                maintaining a positive and structured environment.
-                            </p>
-
-                            <p>
-                                Cultivated strong parent relationships and reinforced
-                                trust in services provided.
-                            </p>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-
-        <!-- =========================
-             LEADERSHIP
-        ========================== -->
-        <section id="leadership" class="section leadership-section">
-            <div class="section-label reveal">
-                <span>04</span>
-                <span>Leadership & Activities</span>
-            </div>
-
-            <div class="section-content">
-
-                <div class="leadership-grid">
-
-                    <!-- Marketing Club -->
-                    <article class="activity-card reveal">
-                        <p class="card-kicker">September 2024 — Present</p>
-
-                        <h3>Fairfield University Marketing Club</h3>
-
-                        <p class="activity-role">Active Member</p>
-
-                        <p>
-                            Participated in Professional Pathways New York City
-                            visits to Horizon Media and VML, learning about media
-                            and creative strategy, planning, and buying.
-                        </p>
-
-                        <p>
-                            Participated in Stags in Marketing, connecting with
-                            alumni from PHD Media, Vineyard Vines, TJX, Tom Ford,
-                            Do Good Marketing, and Acushnet Company.
-                        </p>
-
-                        <div class="tags">
-                            <span>Marketing</span>
-                            <span>Networking</span>
-                            <span>Media Strategy</span>
-                        </div>
-                    </article>
-
-
-                    <!-- Swim Club -->
-                    <article class="activity-card reveal">
-                        <p class="card-kicker">September 2024 — Present</p>
-
-                        <h3>Fairfield University Swim Club</h3>
-
-                        <p class="activity-role">Active Member</p>
-
-                        <p>
-                            Practice six hours per week for semester meets while
-                            balancing a rigorous academic workload.
-                        </p>
-
-                        <p>
-                            Mentored five new members by inviting them to events
-                            and fostering a sense of community.
-                        </p>
-
-                        <div class="tags">
-                            <span>Teamwork</span>
-                            <span>Mentorship</span>
-                            <span>Community</span>
-                        </div>
-                    </article>
-
-
-                    <!-- Eagle Scout -->
-                    <article class="activity-card featured-activity reveal">
-                        <p class="card-kicker">September — November 2023</p>
-
-                        <h3>Hydroponics Eagle Project</h3>
-
-                        <p class="activity-role">Boy Scouts · Eagle Scout</p>
-
-                        <p>
-                            Designed and led a five-month hydroponics lesson using
-                            the Kratky Method for grades 4–8, teaching sustainability
-                            and innovation concepts.
-                        </p>
-
-                        <p>
-                            Mentored Troop members through project planning,
-                            coordination, and execution, demonstrating leadership
-                            and project management skills.
-                        </p>
-
-                        <div class="tags">
-                            <span>Leadership</span>
-                            <span>Project Management</span>
-                            <span>Sustainability</span>
-                        </div>
-                    </article>
-
-
-                    <!-- Presidential Award -->
-                    <article class="activity-card reveal">
-                        <p class="card-kicker">September 2023 — June 2024</p>
-
-                        <h3>Presidential Community Service Award</h3>
-
-                        <p class="activity-role">Candidate</p>
-
-                        <p>
-                            Contributed more than 250 hours across environmental
-                            and educational causes and was recognized as a Gold
-                            Candidate for the Presidential Service Award.
-                        </p>
-
-                        <div class="tags">
-                            <span>Service</span>
-                            <span>Education</span>
-                            <span>Community</span>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- =========================
-             SKILLS
-        ========================== -->
-        <section id="skills" class="section skills-section">
-            <div class="section-label reveal">
-                <span>05</span>
-                <span>Skills & Interests</span>
-            </div>
-
-            <div class="section-content skills-layout">
-
-                <div class="skills-intro reveal">
-                    <h2 class="section-title">
-                        Creative ideas,
-                        <em>measurable impact.</em>
-                    </h2>
-
-                    <p>
-                        My skill set combines creative content development with
-                        social media analytics, marketing strategy, and business
-                        analytics.
-                    </p>
-                </div>
-
-                <div class="skills-area reveal">
-
-                    <div class="skill-group">
-                        <h3>Technical Skills</h3>
-
-                        <div class="large-tags">
-                            <span>Social Media Strategy</span>
-                            <span>Instagram Insights</span>
-                            <span>Microsoft Word</span>
-                            <span>Microsoft Excel</span>
-                            <span>Microsoft PowerPoint</span>
-                            <span>Microsoft Teams</span>
-                            <span>Google Slides</span>
-                            <span>TikTok Analytics</span>
-                            <span>Canva</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-group">
-                        <h3>Interests</h3>
-
-                        <div class="large-tags interests-tags">
-                            <span>Fashion Marketing</span>
-                            <span>Beauty</span>
-                            <span>Lifestyle</span>
-                            <span>Skincare</span>
-                            <span>Brand Storytelling</span>
-                            <span>Emerging Consumer Trends</span>
-                            <span>Influencer Marketing</span>
-                        </div>
                     </div>
 
                 </div>
-            </div>
+
+            </article>
+
         </section>
 
 
-        <!-- =========================
-             CONTACT
-        ========================== -->
-        <section id="contact" class="contact-section">
+        <!-- EXPERIENCE -->
+        <section class="section experience-section" id="experience">
 
-            <div class="contact-inner">
+            <div class="section-heading">
 
-                <p class="eyebrow reveal">06 · Let's Connect</p>
+                <span class="section-number">03</span>
 
-                <h2 class="contact-title reveal">
-                    Let's create
-                    <em>something meaningful.</em>
+                <h2>
+                    Professional<br>
+                    <span>experience</span>
                 </h2>
 
-                <p class="contact-description reveal">
-                    Interested in connecting? Feel free to reach out by email
-                    or connect with me on LinkedIn.
+            </div>
+
+
+            <div class="experience-list">
+
+
+                <!-- CENTER FOR SOCIAL IMPACT -->
+                <article class="experience-card featured-experience">
+
+                    <div class="experience-header">
+
+                        <div>
+
+                            <p class="card-label">
+                                09/2026 — Present
+                            </p>
+
+                            <h3>
+                                Fairfield University Center of Social Impact
+                            </h3>
+
+                            <p class="card-subtitle">
+                                Social Media Intern
+                            </p>
+
+                        </div>
+
+                        <span class="experience-location">
+                            Fairfield, CT
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-content single-column">
+
+                        <div class="experience-description">
+
+                            <p>
+                                Create and schedule social media content
+                                across Instagram, Facebook, and LinkedIn to
+                                promote Center for Social Impact programs
+                                and community partnerships.
+                            </p>
+
+                            <p>
+                                Produce visual content including photos,
+                                videos, Reels, and digital stories highlighting
+                                student, faculty, and community impact.
+                            </p>
+
+                            <p>
+                                Monitor social media impressions, develop
+                                content strategies, and collaborate with
+                                partners to increase engagement and awareness.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STAGS HOSPITALITY -->
+                <article class="experience-card">
+
+                    <div class="experience-header">
+
+                        <div>
+
+                            <p class="card-label">
+                                09/2026 — Present
+                            </p>
+
+                            <h3>
+                                Fairfield University Stags Hospitality
+                            </h3>
+
+                            <p class="card-subtitle">
+                                Social Media Intern
+                            </p>
+
+                        </div>
+
+                        <span class="experience-location">
+                            Fairfield, CT
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-content single-column">
+
+                        <div class="experience-description">
+
+                            <p>
+                                Create engaging social media content,
+                                including Reels, photos, and videos, to
+                                promote campus dining events and student
+                                experiences.
+                            </p>
+
+                            <p>
+                                Brainstorm and develop creative marketing
+                                campaigns, promotions, giveaways, and
+                                student engagement initiatives.
+                            </p>
+
+                            <p>
+                                Engage with students through surveys to gather
+                                feedback and develop marketing strategies that
+                                increase awareness of special dining events.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BIZVALUATION -->
+                <article class="experience-card">
+
+                    <div class="experience-header">
+
+                        <div>
+
+                            <p class="card-label">
+                                08/2026 — Present
+                            </p>
+
+                            <h3>
+                                BizValuation Inc.
+                            </h3>
+
+                            <p class="card-subtitle">
+                                Marketing Intern
+                            </p>
+
+                        </div>
+
+                        <span class="experience-location">
+                            Melville, NY
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-content single-column">
+
+                        <div class="experience-description">
+
+                            <p>
+                                Develop LinkedIn and email marketing content,
+                                including graphic design for BizValuation's
+                                website articles.
+                            </p>
+
+                            <p>
+                                Analyze LinkedIn metrics to identify content
+                                trends and recommend strategies to increase
+                                audience engagement.
+                            </p>
+
+                            <p>
+                                Support CRM management and LinkedIn outreach
+                                by researching prospective CPA and attorney
+                                contacts, maintaining contact lists, and
+                                building professional referral relationships.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- WAVE CREATIONS -->
+                <article class="experience-card">
+
+                    <div class="experience-header">
+
+                        <div>
+
+                            <p class="card-label">
+                                06/2025 — 02/2026
+                            </p>
+
+                            <h3>
+                                Wave Creations LLC
+                            </h3>
+
+                            <p class="card-subtitle">
+                                Social Media Intern
+                            </p>
+
+                        </div>
+
+                        <span class="experience-location">
+                            Long Island, NY
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-content">
+
+                        <div class="experience-description">
+
+                            <p>
+                                Developed and posted branded content on
+                                Instagram, Pinterest, and TikTok four times
+                                per week to enhance brand identity and
+                                consumer engagement while aligning with brand
+                                positioning and current market trends.
+                            </p>
+
+                            <p>
+                                Created graphics in Canva for upcoming events
+                                and new products and monitored post analytics
+                                to measure reach, engagement, and consumer
+                                response.
+                            </p>
+
+                        </div>
+
+
+                        <div class="metrics">
+
+                            <div class="metric-group">
+
+                                <span class="metric-platform">
+                                    Pinterest · July–August
+                                </span>
+
+                                <div class="metric-grid">
+
+                                    <div>
+                                        <strong>437K</strong>
+                                        <span>Impressions</span>
+                                    </div>
+
+                                    <div>
+                                        <strong>10K</strong>
+                                        <span>Engagement</span>
+                                    </div>
+
+                                    <div>
+                                        <strong>2.4K</strong>
+                                        <span>Saves</span>
+                                    </div>
+
+                                    <div>
+                                        <strong>20K</strong>
+                                        <span>Engaged Audience</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="metric-group">
+
+                                <span class="metric-platform">
+                                    TikTok · July–August
+                                </span>
+
+                                <div class="metric-grid">
+
+                                    <div>
+                                        <strong>9K</strong>
+                                        <span>Post Views</span>
+                                    </div>
+
+                                    <div>
+                                        <strong>212</strong>
+                                        <span>Profile Views</span>
+                                    </div>
+
+                                    <div>
+                                        <strong>581</strong>
+                                        <span>Likes</span>
+                                    </div>
+
+                                    <div>
+                                        <strong>86.9%</strong>
+                                        <span>FYP</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEADERSHIP -->
+        <section class="section leadership-section" id="leadership">
+
+            <div class="section-heading">
+
+                <span class="section-number">04</span>
+
+                <h2>
+                    Leadership &<br>
+                    <span>activities</span>
+                </h2>
+
+            </div>
+
+
+            <div class="leadership-grid">
+
+
+                <!-- WOMEN IN BUSINESS -->
+                <article class="leadership-card">
+
+                    <div class="leadership-number">
+                        01
+                    </div>
+
+                    <p class="card-label">
+                        09/2026 — Present
+                    </p>
+
+                    <h3>
+                        Fairfield University Women In Business Club
+                    </h3>
+
+                    <p class="card-subtitle">
+                        Mentor
+                    </p>
+
+                    <p>
+                        Mentor and support two female undergraduate students,
+                        providing guidance on academics, campus involvement,
+                        internships, and networking.
+                    </p>
+
+                    <p>
+                        Connect mentees with campus resources and clubs while
+                        fostering confidence and leadership skills.
+                    </p>
+
+                </article>
+
+
+                <!-- MARKETING CLUB -->
+                <article class="leadership-card">
+
+                    <div class="leadership-number">
+                        02
+                    </div>
+
+                    <p class="card-label">
+                        09/2024 — Present
+                    </p>
+
+                    <h3>
+                        Fairfield University Marketing Club
+                    </h3>
+
+                    <p class="card-subtitle">
+                        Active Member
+                    </p>
+
+                    <p>
+                        Visited Horizon Media and VML and learned about media
+                        and creative strategy, planning, and buying.
+                    </p>
+
+                    <p>
+                        Participated in Stags in Marketing and connected with
+                        alumni from PHD Media, Vineyard Vines, TJX, Tom Ford,
+                        Do Good Marketing, and Acushnet Company.
+                    </p>
+
+                </article>
+
+
+                <!-- SWIM CLUB -->
+                <article class="leadership-card">
+
+                    <div class="leadership-number">
+                        03
+                    </div>
+
+                    <p class="card-label">
+                        09/2024 — Present
+                    </p>
+
+                    <h3>
+                        Fairfield University Swim Club
+                    </h3>
+
+                    <p class="card-subtitle">
+                        Active Member
+                    </p>
+
+                    <p>
+                        Practice six hours per week for semester meets while
+                        balancing a rigorous academic workload.
+                    </p>
+
+                    <p>
+                        Mentor new members by encouraging event participation
+                        and fostering a strong sense of community.
+                    </p>
+
+                </article>
+
+
+                <!-- EAGLE SCOUT -->
+                <article class="leadership-card">
+
+                    <div class="leadership-number">
+                        04
+                    </div>
+
+                    <p class="card-label">
+                        Leadership & Service
+                    </p>
+
+                    <h3>
+                        Eagle Scout
+                    </h3>
+
+                    <p class="card-subtitle">
+                        Boy Scouts
+                    </p>
+
+                    <p>
+                        Earned the rank of Eagle Scout through leadership,
+                        service, and project experience.
+                    </p>
+
+                </article>
+
+
+                <!-- SERVICE AWARD -->
+                <article class="leadership-card">
+
+                    <div class="leadership-number">
+                        05
+                    </div>
+
+                    <p class="card-label">
+                        Service
+                    </p>
+
+                    <h3>
+                        Presidential Community Service Award
+                    </h3>
+
+                    <p class="card-subtitle">
+                        Gold Level
+                    </p>
+
+                    <p>
+                        Recognized at the Gold Level after completing the
+                        required 250+ service hours.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    05
+                </span>
+
+                <h2>
+                    Skills &<br>
+                    <span>interests</span>
+                </h2>
+
+            </div>
+
+
+            <div class="skills-layout">
+
+
+                <div class="skills-column">
+
+                    <p class="card-label">
+                        Technical Skills
+                    </p>
+
+                    <div class="skills-cloud">
+
+                        <span>Social Media Strategy</span>
+                        <span>Instagram Analytics</span>
+                        <span>TikTok Analytics</span>
+                        <span>Microsoft Excel</span>
+                        <span>Canva</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skills-column interests-column">
+
+                    <p class="card-label">
+                        Interests
+                    </p>
+
+                    <div class="interest-list">
+
+                        <div class="interest-item">
+                            <span>01</span>
+                            <strong>Brand Storytelling</strong>
+                        </div>
+
+                        <div class="interest-item">
+                            <span>02</span>
+                            <strong>Influencer Marketing</strong>
+                        </div>
+
+                        <div class="interest-item">
+                            <span>03</span>
+                            <strong>Lifestyle Branding</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">
+                    06 · Let's connect
                 </p>
 
-                <div class="contact-actions reveal">
+                <h2>
+                    Let's start a<br>
+                    <span>conversation.</span>
+                </h2>
+
+                <p class="contact-description">
+                    Interested in connecting? Reach out through email or
+                    LinkedIn.
+                </p>
+
+
+                <div class="contact-buttons">
 
                     <a
-                        href="mailto:Catherine.mack@student.fairfield.edu"
-                        class="contact-button primary"
+                        href="mailto:catherine.mack@student.fairfield.edu"
+                        class="button button-primary"
                     >
                         Email Me
                         <span aria-hidden="true">↗</span>
@@ -547,27 +933,12 @@
                         href="https://www.linkedin.com/in/catherinemack5"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="contact-button secondary"
+                        class="button button-secondary"
                     >
                         LinkedIn
                         <span aria-hidden="true">↗</span>
                     </a>
 
-                    <a
-                        href="tel:+16465123031"
-                        class="contact-button secondary"
-                    >
-                        646-512-3031
-                        <span aria-hidden="true">↗</span>
-                    </a>
-
-                </div>
-
-                <div class="contact-email reveal">
-                    <span>Or drop me a line at</span>
-                    <a href="mailto:Catherine.mack@student.fairfield.edu">
-                        Catherine.mack@student.fairfield.edu
-                    </a>
                 </div>
 
             </div>
@@ -577,34 +948,55 @@
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- FOOTER -->
     <footer class="site-footer">
-        <div>
-            <span>© 2026 Catherine Mack</span>
+
+        <div class="footer-left">
+
+            <strong>
+                Catherine Mack
+            </strong>
+
+            <span>
+                Marketing · Business Analytics
+            </span>
+
         </div>
 
-        <div class="footer-links">
+
+        <div class="footer-right">
+
+            <a
+                href="mailto:catherine.mack@student.fairfield.edu"
+                aria-label="Email Catherine Mack"
+            >
+                Email
+            </a>
+
             <a
                 href="https://www.linkedin.com/in/catherinemack5"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Catherine Mack on LinkedIn"
             >
                 LinkedIn
             </a>
 
-            <a href="mailto:Catherine.mack@student.fairfield.edu">
-                Email
+            <a href="#home">
+                Back to top ↑
             </a>
+
         </div>
 
-        <a href="#top" class="back-to-top" aria-label="Back to top">
-            ↑
-        </a>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> Catherine Mack
+        </p>
+
     </footer>
 
 
     <script src="script.js"></script>
+
 </body>
 </html>
